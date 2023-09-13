@@ -1,29 +1,144 @@
 <!DOCTYPE html>
 <html>
     <head>
+
         <title>FELIZ CUMPLEEEEEE!!!</title>
         <style>
-            
+            @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+            /* .container */
+            /* {
+                display: grid;
+                justify-content: center;
+            } */
+            body
+            {
+                background-image: url(./imagenes/flores.jpg);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment:fixed;
+                background-position-y: -700px;
+                margin: 0px;
+            }
+            .fotos
+            {
+                background-color: aqua;
+                display: flex;
+                justify-content: space-between;
+                display: none;
+            }
+            /* .fotos
+            {
+                background-color: aqua;
+                display: flex;
+                justify-content: space-between;
+                display: none;
+            } */
+            .fotos img
+            {
+                width: 200px;
+                border-radius: 100%;
+                border: solid #0084ff15;   
+                margin-bottom: 90px;             
+            }
+            .title1
+            {
+                margin-top: 0px;
+                display: flex;
+                justify-content: center;
+
+            }
+            .title1 h1
+            {
+                background-color: aliceblue;
+                border-radius: 10px;
+            }
+            .text1
+            {
+                display: flex;
+                justify-content: center;
+            }
+            .text1 p
+            {
+                background-color: aliceblue;
+                border-radius: 10px;
+                width: 400px;
+                font-size: 20px;
+            }
+            .text2
+            {
+                display: flex;
+                justify-content: center;
+
+            }
+            .text2 span
+            {
+                background-color: aliceblue;
+                border-radius: 100px;
+            }
+            .buttonG
+            {
+                display: flex;
+                justify-content: center;
+            }
+            .buttonG button
+            {
+                border-radius: 5px;
+                border: none;
+                margin-top: 20px;
+                height: 30px;
+                width: 300px;
+                background-color:#8aa7cf;
+                font-size: 20px;
+                font-family: 'Caveat', cursive;
+                cursor: pointer;
+                color: whitesmoke;
+            }
+            .background1
+            {
+                background-color: aqua;
+                margin-top: 240px;
+                height: 370px;
+                width: 1000px;
+            }
+
+            @media  (min-width: 391px)
+            {
+                body
+                {
+                    background-attachment: fixed;
+                    background-position-y: center;
+                }
+            }
         </style>
     </head>
 
     <body>
-        <div>
+        <div class="container">
+            <div class="fotos">
 
-            <img src="./imagenes/globlos.jpg" alt=""> <img src="./imagenes/globlos.jpg" alt="">
+                <img src="./imagenes/globlos.jpg" alt="globo1" class="globlo1"> <img src="./imagenes/globlos.jpg" alt="globlo2" class="globlo2">
 
-        </div>
+            </div>
         
-        <div class="title1">
-        <h1>Feliz Cumpleaños FelipeCastillo</h1>
-        </div>
+            <div class="title1">
+                <h1>Feliz Cumpleaños FelipeCastillo</h1>
+            </div>
+            
 
-        <div>
-            <p>
-                Gracias por darme la oportunidad de poder cumplir mis sueños, de ayudarme, por tu tolerancia a mis actitudes. Yo espero con todo mi corazón que puedas disfrutar una feliz vida con tu familia y ver a tu hijo crecer, y envejecer con tu esposa y lograr tus deseos, que tu empresa sea referente en el mundo. Gracias y feliz cumpleaños FelipeCastillo.        
-            </p>
+            <div class="text1">
+                <p>
+                Gracias por darme la oportunidad de poder cumplir mis sueños, de ayudarme, por tu tolerancia a mis actitudes. Yo espero con todo mi corazón que puedas disfrutar una feliz vida con tu familia y ver a tu hijo crecer, y envejecer con tu esposa y lograr tus deseos, también que tu empresa sea referente en el mundo.       
+                </p>
+            </div>
+            <div class="text2">
+                <span> Gracias y feliz cumpleaños FelipeCastillo. </span>
+            </div>
+            <div class="buttonG">
+                <button class="gracias">Gracias</button>
+            </div>
+            <div class="background1">.</div>
         </div>
-
 
     </body>
 </html>
